@@ -46,6 +46,9 @@ import RAG from './assets/tech_logo/rag logo.png';
 import HuggingFace from './assets/tech_logo/hugging logo.png';
 import NLTK from './assets/tech_logo/nltk logo.png';
 import spaCy from './assets/tech_logo/spacy logo.png';
+import LangChain from './assets/tech_logo/lang chain.png';
+import LangGraph from './assets/tech_logo/langgraph-color.png';
+import LangSmith from './assets/tech_logo/langsmith-color.png';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -67,6 +70,12 @@ import certDsaImg from './assets/certificates/cert_dsa.png';
 import certFullstackImg from './assets/certificates/cert_fullstack.png';
 import certMlImg from './assets/certificates/cert_ml.png';
 import certMlIm from './assets/certificates/cert_m.png';
+import javaCapstoneImg from './assets/certificates/Screenshot 2026-07-29 165035.png';
+import oracleAiDatabaseImg from './assets/certificates/Screenshot 2026-07-29 165054.png';
+import oracleOciImg from './assets/certificates/Screenshot 2026-07-29 165114.png';
+import oracleDataPlatformImg from './assets/certificates/Screenshot 2026-07-29 165133.png';
+import oracleFusionAiImg from './assets/certificates/Screenshot 2026-07-29 165159.png';
+
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
@@ -102,6 +111,9 @@ export const SkillsInfo = [
       { name: 'TensorFlow', logo: TensorFlow },
       { name: 'PyTorch', logo: PyTorch },
       { name: 'RAG', logo: RAG },
+      { name: 'LangChain', logo: LangChain },
+      { name: 'LangGraph', logo: LangGraph },
+      { name: 'LangSmith', logo: LangSmith },
     ],
   },
   {
@@ -208,7 +220,7 @@ export const SkillsInfo = [
       img: glaLogo,
       school: "LOVELY PROFESSIONAL UNIVERSITY, PUNJAB",
       date: "Aug 2023 - Present",
-      grade: "6.75 CGPA",
+      grade: "7.13 CGPA",
       desc: "I am Currently Purshing my Bachelor of Computer Science Engineering from Lovely Professional University, PUnjab. During from this time at LPU, I gained a strong foundation in programming, Machine Learning And AI , and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, ML, and AI. I actively participated in various workshops and technical events, which enhanced my skills and knowledge.",
       degree: "Bachelor of Computer Science Engineering - B.Tech",
     },
@@ -281,7 +293,7 @@ export const SkillsInfo = [
       image: certDsaImg,
       name: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
       issuer: "Oracle",
-      year: "2025",
+      year: "2026",
       link: "https://drive.google.com/file/d/1Avp0s6Eg8ktnxOWFce1G97vjxpbpL4Mm/view?usp=drive_link",
     },
     {
@@ -293,13 +305,55 @@ export const SkillsInfo = [
       link: "https://drive.google.com/file/d/1TgR7nMS7nomUOiaFyMlCYXyLd-2dmwye/view?usp=drive_link",
     },
     {
-      id: 2,
+      id: 3,
       image: certMlIm,
       name: "Cloud Computing",
       issuer: "NPTEL",
       year: "2025",
       link: "https://drive.google.com/file/d/1440mSOdKIBPXimwvltHV49Na9W8sy9R-/view?usp=drive_link",
     },
+    {
+      id: 4,
+      image: javaCapstoneImg,
+      name: "Java Programming: Capstone Project",
+      issuer: "IBM",
+      year: "2026",
+      link: "https://courses.gfg.skillsnetwork.site/certificates/a05d2a8001a2411592cbb9ec26a5ac46",
+    },
+    {
+      id: 5,
+      image: oracleAiDatabaseImg,
+      name: "Oracle AI Database Certified Foundations Associate",
+      issuer: "Oracle",
+      year: "2026",
+      link: "https://drive.google.com/file/d/1b_3dvLmRzKhY5nitPkbnQ7JW9DCLHTD4/view?usp=sharing",
+    },
+    {
+      id: 6,
+      image: oracleFusionAiImg,
+      name: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
+      issuer: "Oracle",
+      year: "2026",
+      link: "https://drive.google.com/file/d/1ce1zXRXOjaclGB4bEFkD5708Eat1qZeH/view?usp=drive_link",
+    },
+    {
+      id: 7,
+      image: oracleOciImg,
+      name: "Oracle Data Platform 2025 Certified Foundations Associate",
+      issuer: "Oracle",
+      year: "2026",
+      link: "https://drive.google.com/file/d/1LH7lvLW5pStCHFSma87D1VrmM_C1yixb/view?usp=sharing",
+    },
+    {
+      id: 8,
+      image: oracleDataPlatformImg,
+      name: "Oracle Fusion AI Agent Studio Certified Foundations Associate - Rel 1",
+      issuer: "Oracle",
+      year: "2026",
+      link: "https://drive.google.com/file/d/1fYDtUQ8P28GPgSq2Gq_cYldC5Pu3wWM1/view?usp=sharing",
+    },
+
+    
     
   ];
 
